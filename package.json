@@ -1,0 +1,40 @@
+{
+  "name": "@hewes/eslint-config",
+  "version": "1.1.2",
+  "description": "This is a basic eslint config used by me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0"
+  },
+  "author": "@ubrey",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^5.16.0",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AubreyHewes/eslint-config.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AubreyHewes/eslint-config/issues"
+  },
+  "homepage": "https://github.com/AubreyHewes/eslint-config#readme"
+}
