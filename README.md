@@ -24,3 +24,11 @@ And configure eslint to extend `@hewes/eslint-config`
 ```
 
 That should do it!
+
+Also I recommend a deviant prettier configuration as we no longer live in he 80s and github is not the one ring:
+
+```json
+{
+  "printWidth": 120
+}
+```
