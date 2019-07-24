@@ -4,7 +4,9 @@
   "description": "This is a basic eslint config used by me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=8"
@@ -13,7 +15,8 @@
     "babel-eslint": "^10.0.2",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-react": "^7.14.2",
+    "snyk": "^1.198.0"
   },
   "author": "@ubrey",
   "license": "MIT",
@@ -39,5 +42,6 @@
   "bugs": {
     "url": "https://github.com/AubreyHewes/eslint-config/issues"
   },
-  "homepage": "https://github.com/AubreyHewes/eslint-config#readme"
+  "homepage": "https://github.com/AubreyHewes/eslint-config#readme",
+  "snyk": true
 }
