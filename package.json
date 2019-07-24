@@ -1,7 +1,9 @@
 {
   "name": "@hewes/eslint-config",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "This is a basic eslint config used by me",
+  "author": "@ubrey",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,18 +17,16 @@
     "babel-eslint": "^10.0.2",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
-    "snyk": "^1.198.0"
+    "eslint-plugin-react": "^7.14.2"
   },
-  "author": "@ubrey",
-  "license": "MIT",
   "peerDependencies": {
     "eslint": "^6.0.1",
     "prettier": "^1.18.2"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "snyk": "^1.198.0"
   },
   "eslintConfig": {
     "extends": "./index.js"
